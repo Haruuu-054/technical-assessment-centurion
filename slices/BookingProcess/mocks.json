@@ -1,0 +1,96 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "booking_process",
+    "primary": {
+      "eyebrow": "How It Works",
+      "heading": [
+        {
+          "type": "heading2",
+          "text": "Book Your Room in 4 Simple Steps",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "From browsing to move-in, we've made the process simple and transparent so you can settle in faster.",
+          "spans": []
+        }
+      ],
+      "cta_label": "Start Booking",
+      "cta_link": {
+        "link_type": "Web",
+        "url": "/rooms"
+      }
+    },
+    "items": [
+      {
+        "step_number": "01",
+        "icon": {
+          "url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=200&h=200&fit=crop",
+          "alt": "Magnifying glass icon",
+          "dimensions": { "width": 200, "height": 200 }
+        },
+        "step_title": "Browse & Select",
+        "step_description": [
+          {
+            "type": "paragraph",
+            "text": "Explore available rooms by location, price, and amenities to find your perfect fit.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "step_number": "02",
+        "icon": {
+          "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=200&h=200&fit=crop",
+          "alt": "Calendar icon",
+          "dimensions": { "width": 200, "height": 200 }
+        },
+        "step_title": "Schedule a Tour",
+        "step_description": [
+          {
+            "type": "paragraph",
+            "text": "Book a self-guided or in-person tour at a time that works for you, no pressure.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "step_number": "03",
+        "icon": {
+          "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=200&h=200&fit=crop",
+          "alt": "Document icon",
+          "dimensions": { "width": 200, "height": 200 }
+        },
+        "step_title": "Submit Application",
+        "step_description": [
+          {
+            "type": "paragraph",
+            "text": "Complete a quick online application and reserve your room with a fully refundable deposit.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "step_number": "04",
+        "icon": {
+          "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=200&h=200&fit=crop",
+          "alt": "Key icon",
+          "dimensions": { "width": 200, "height": 200 }
+        },
+        "step_title": "Move In",
+        "step_description": [
+          {
+            "type": "paragraph",
+            "text": "Sign your lease online, pick up your keys, and settle into your new space.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "id": "booking-process-default"
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "id": "building_story",
+  "type": "SharedSlice",
+  "name": "BuildingStory",
+  "description": "BuildingStory",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "eyebrow": {
+          "type": "Text",
+          "config": {
+            "label": "eyebrow",
+            "placeholder": "THE BUILDING'S STORY"
+          }
+        },
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "heading",
+            "placeholder": "Before it was dwell, it was Mang Kok",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "description",
+            "placeholder": "This address has been part of the neighbourhood far longer than the brand on the door. Here's the short version.",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "timeline": {
+          "type": "Group",
+          "config": {
+            "label": "timeline",
+            "repeat": true,
+            "fields": {
+              "tag": {
+                "type": "Text",
+                "config": {
+                  "label": "tag",
+                  "placeholder": "1930's"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "title",
+                  "placeholder": "Built on Prince Edward Road West"
+                }
+              },
+              "description": {
+                "type": "Text",
+                "config": {
+                  "label": "description",
+                  "placeholder": "Raised as a three-storey walk-up in the pre-war style that still defines this stretch of Mong Kok."
+                }
+              }
+            }
+          }
+        },
+        "panel_image": {
+          "type": "Image",
+          "config": {
+            "label": "panel_image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

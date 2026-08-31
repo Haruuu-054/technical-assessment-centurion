@@ -1,0 +1,92 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "frequently_asked",
+    "primary": {
+      "eyebrow": "FAQ",
+      "heading": [
+        {
+          "type": "heading2",
+          "text": "Frequently Asked Questions",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Got questions about booking, move-in, or life at Dwell? We've got answers. If you don't see yours here, just reach out.",
+          "spans": []
+        }
+      ],
+      "contact_label": "Still have questions? Contact us",
+      "contact_link": {
+        "link_type": "Web",
+        "url": "/contact"
+      }
+    },
+    "items": [
+      {
+        "question": "Is the deposit refundable?",
+        "answer": [
+          {
+            "type": "paragraph",
+            "text": "Yes, fully refundable if you cancel before move-in, minus any standard processing fees.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "question": "How long are the lease terms?",
+        "answer": [
+          {
+            "type": "paragraph",
+            "text": "We keep it flexible: 3-month minimum stays, with standard 6 and 12 month leases also available.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "question": "Are utilities included in the rent?",
+        "answer": [
+          {
+            "type": "paragraph",
+            "text": "Yes. Water, electricity, high-speed Wi-Fi, and access to all shared amenities are included, no surprise bills.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "question": "Can I schedule a tour before applying?",
+        "answer": [
+          {
+            "type": "paragraph",
+            "text": "Of course. Book a self-guided or in-person tour directly from any room listing, completely free, no commitment.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "question": "What documents do I need to apply?",
+        "answer": [
+          {
+            "type": "paragraph",
+            "text": "Just a valid ID, proof of income or enrollment, and a payment method for the deposit. Most applications take under 10 minutes.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "question": "What happens if I need to move out early?",
+        "answer": [
+          {
+            "type": "paragraph",
+            "text": "Reach out to our team as soon as possible, we offer lease transfer and early termination options depending on your plan.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "id": "frequently-asked-default"
+  }
+]

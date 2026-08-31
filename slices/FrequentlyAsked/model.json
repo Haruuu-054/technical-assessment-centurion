@@ -1,0 +1,76 @@
+{
+  "id": "frequently_asked",
+  "type": "SharedSlice",
+  "name": "FrequentlyAsked",
+  "description": "An accordion list of frequently asked questions.",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Default",
+      "primary": {
+        "eyebrow": {
+          "type": "Text",
+          "config": {
+            "label": "Eyebrow",
+            "placeholder": "e.g. FAQ"
+          }
+        },
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "Section heading",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "Short supporting copy",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "contact_label": {
+          "type": "Text",
+          "config": {
+            "label": "Contact CTA Label",
+            "placeholder": "e.g. Still have questions? Contact us"
+          }
+        },
+        "contact_link": {
+          "type": "Link",
+          "config": {
+            "label": "Contact CTA Link",
+            "placeholder": "Where the contact CTA should go",
+            "allowTargetBlank": true
+          }
+        }
+      },
+      "items": {
+        "question": {
+          "type": "Text",
+          "config": {
+            "label": "Question",
+            "placeholder": "e.g. Is the deposit refundable?"
+          }
+        },
+        "answer": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Answer",
+            "placeholder": "Answer to the question",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        }
+      },
+      "imageUrl": ""
+    }
+  ]
+}

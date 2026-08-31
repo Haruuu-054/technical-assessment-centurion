@@ -1,0 +1,70 @@
+[
+  {
+    "variation": "default",
+    "primary": {
+      "eyebrow": "WHAT MAKES IT DIFFERENT",
+      "heading": [
+        {
+          "type": "heading2",
+          "text": "Heritage character, not a heritage compromise",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "This address has been part of the neighbourhood far longer than the brand on the door. Here's the short version.",
+          "spans": []
+        }
+      ],
+      "rooms": [
+        {
+          "image": {
+            "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800",
+            "alt": "Premium Loft Room Upper Level"
+          },
+          "title": "Premium Loft Room Upper Level",
+          "price": "From HK$ 8,050",
+          "guests": "1 Guest",
+          "beds": "1 Bed",
+          "bath": "Shared Bath",
+          "link": {
+            "link_type": "Web",
+            "url": "#"
+          }
+        },
+        {
+          "image": {
+            "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800",
+            "alt": "Premium Loft Room Upper Level"
+          },
+          "title": "Premium Loft Room Upper Level",
+          "price": "From HK$ 8,050",
+          "guests": "1 Guest",
+          "beds": "1 Bed",
+          "bath": "Shared Bath",
+          "link": {
+            "link_type": "Web",
+            "url": "#"
+          }
+        },
+        {
+          "image": {
+            "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800",
+            "alt": "Premium Loft Room Upper Level"
+          },
+          "title": "Premium Loft Room Upper Level",
+          "price": "From HK$ 8,050",
+          "guests": "1 Guest",
+          "beds": "1 Bed",
+          "bath": "Shared Bath",
+          "link": {
+            "link_type": "Web",
+            "url": "#"
+          }
+        }
+      ]
+    },
+    "items": []
+  }
+]

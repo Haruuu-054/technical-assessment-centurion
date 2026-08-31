@@ -1,0 +1,42 @@
+{
+  "id": "stat_strip",
+  "type": "SharedSlice",
+  "name": "StatStrip",
+  "description": "StatStrip",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "stats": {
+          "type": "Group",
+          "config": {
+            "label": "stats",
+            "repeat": true,
+            "fields": {
+              "value": {
+                "type": "Text",
+                "config": {
+                  "label": "value",
+                  "placeholder": "value"
+                }
+              },
+              "label": {
+                "type": "Text",
+                "config": {
+                  "label": "label",
+                  "placeholder": "label"
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
