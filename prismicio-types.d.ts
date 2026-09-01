@@ -630,6 +630,22 @@ export interface HeroSectionSliceDefaultPrimary {
   image_secondary_top: prismic.ImageField<never>;
 
   /**
+   * image_secondary_top_link field in *HeroSection → Default → Primary*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: link 1
+   * - **API ID Path**: hero_section.default.primary.image_secondary_top_link
+   * - **Documentation**: https://prismic.io/docs/fields/link
+   */
+  image_secondary_top_link: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
+
+  /**
    * image_secondary_bottom field in *HeroSection → Default → Primary*
    *
    * - **Field Type**: Image
@@ -638,6 +654,22 @@ export interface HeroSectionSliceDefaultPrimary {
    * - **Documentation**: https://prismic.io/docs/fields/image
    */
   image_secondary_bottom: prismic.ImageField<never>;
+
+  /**
+   * image_secondary_bottom_link field in *HeroSection → Default → Primary*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: link2
+   * - **API ID Path**: hero_section.default.primary.image_secondary_bottom_link
+   * - **Documentation**: https://prismic.io/docs/fields/link
+   */
+  image_secondary_bottom_link: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 }
 
 /**

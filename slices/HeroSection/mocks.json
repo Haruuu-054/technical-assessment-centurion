@@ -77,7 +77,6 @@
 				"thumbnails": {}
 			},
 			"image_secondary_bottom": {
-				"__TYPE__": "ImageContent",
 				"origin": {
 					"id": "main",
 					"url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43",
@@ -96,7 +95,27 @@
 				},
 				"url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43",
 				"alt": "lay",
+				"credits": null,
+				"__TYPE__": "ImageContent",
 				"thumbnails": {}
+			},
+			"image_secondary_top_link": {
+				"key": "3704380b-ab21-4dd5-a14f-5d28f3e38b55",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://prismic.io",
+					"text": "increase"
+				}
+			},
+			"image_secondary_bottom_link": {
+				"__TYPE__": "LinkContent",
+				"key": "17ca2c24-990a-4ca2-b46b-8c49f28f439c",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "lie"
+				}
 			}
 		},
 		"items": []

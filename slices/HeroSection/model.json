@@ -91,12 +91,34 @@
             "thumbnails": []
           }
         },
+        "image_secondary_top_link": {
+          "type": "Link",
+          "config": {
+            "label": "image_secondary_top_link",
+            "placeholder": "link 1",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": false
+          }
+        },
         "image_secondary_bottom": {
           "type": "Image",
           "config": {
             "label": "image_secondary_bottom",
             "constraint": {},
             "thumbnails": []
+          }
+        },
+        "image_secondary_bottom_link": {
+          "type": "Link",
+          "config": {
+            "label": "image_secondary_bottom_link",
+            "placeholder": "link2",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": false
           }
         }
       },

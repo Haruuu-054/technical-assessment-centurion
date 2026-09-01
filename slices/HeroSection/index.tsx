@@ -24,7 +24,9 @@ const HeroSection: FC<HeroSectionProps> = ({ slice }) => {
     sub_heading,
     image,
     image_secondary_top,
+    image_secondary_top_link,
     image_secondary_bottom,
+    image_secondary_bottom_link,
     primary_cta_label,
     primary_cta_link,
     secondary_cta_label,
@@ -105,7 +107,11 @@ const HeroSection: FC<HeroSectionProps> = ({ slice }) => {
         {/* Two side images: horizontal row on mobile, stacked column on lg+ */}
         <div className="flex flex-row lg:flex-col gap-3 sm:gap-4 w-full lg:flex-1">
           {/* Prince Edward */}
-          <div className="relative flex-1 h-[160px] sm:h-[220px] lg:h-auto lg:flex-1 rounded-[20px] sm:rounded-[28px] overflow-hidden group/top">
+          <PrismicLink
+            field={image_secondary_top_link}
+            aria-label="Dwell Prince Edward"
+            className="relative flex-1 h-[160px] sm:h-[220px] lg:h-auto lg:flex-1 rounded-[20px] sm:rounded-[28px] overflow-hidden group/top block cursor-pointer"
+          >
             <PrismicNextImage
               field={image_secondary_top}
               className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover/top:scale-[1.06]"
@@ -123,10 +129,14 @@ const HeroSection: FC<HeroSectionProps> = ({ slice }) => {
                 Dwell Prince Edward
               </span>
             </div>
-          </div>
+          </PrismicLink>
 
           {/* Ho Man Tin */}
-          <div className="relative flex-1 h-[160px] sm:h-[220px] lg:h-auto lg:flex-1 rounded-[20px] sm:rounded-[28px] overflow-hidden group/bottom">
+          <PrismicLink
+            field={image_secondary_bottom_link}
+            aria-label="Dwell Ho Man Tin"
+            className="relative flex-1 h-[160px] sm:h-[220px] lg:h-auto lg:flex-1 rounded-[20px] sm:rounded-[28px] overflow-hidden group/bottom block cursor-pointer"
+          >
             <PrismicNextImage
               field={image_secondary_bottom}
               className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover/bottom:scale-[1.06]"
@@ -143,7 +153,7 @@ const HeroSection: FC<HeroSectionProps> = ({ slice }) => {
                 Dwell Ho Man Tin
               </span>
             </div>
-          </div>
+          </PrismicLink>
         </div>
       </div>
     </section>
